@@ -1,0 +1,16 @@
+C:\Users\renar\Desktop\CadastroClientes_Selenium\CadastroClientes_Selenium\bin\Debug\netcoreapp3.1\CadastroClientes_Selenium.exe
+C:\Users\renar\Desktop\CadastroClientes_Selenium\CadastroClientes_Selenium\bin\Debug\netcoreapp3.1\CadastroClientes_Selenium.deps.json
+C:\Users\renar\Desktop\CadastroClientes_Selenium\CadastroClientes_Selenium\bin\Debug\netcoreapp3.1\CadastroClientes_Selenium.runtimeconfig.json
+C:\Users\renar\Desktop\CadastroClientes_Selenium\CadastroClientes_Selenium\bin\Debug\netcoreapp3.1\CadastroClientes_Selenium.runtimeconfig.dev.json
+C:\Users\renar\Desktop\CadastroClientes_Selenium\CadastroClientes_Selenium\bin\Debug\netcoreapp3.1\CadastroClientes_Selenium.dll
+C:\Users\renar\Desktop\CadastroClientes_Selenium\CadastroClientes_Selenium\bin\Debug\netcoreapp3.1\CadastroClientes_Selenium.pdb
+C:\Users\renar\Desktop\CadastroClientes_Selenium\CadastroClientes_Selenium\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\renar\Desktop\CadastroClientes_Selenium\CadastroClientes_Selenium\bin\Debug\netcoreapp3.1\WebDriver.dll
+C:\Users\renar\Desktop\CadastroClientes_Selenium\CadastroClientes_Selenium\obj\Debug\netcoreapp3.1\CadastroClientes_Selenium.csprojAssemblyReference.cache
+C:\Users\renar\Desktop\CadastroClientes_Selenium\CadastroClientes_Selenium\obj\Debug\netcoreapp3.1\CadastroClientes_Selenium.AssemblyInfoInputs.cache
+C:\Users\renar\Desktop\CadastroClientes_Selenium\CadastroClientes_Selenium\obj\Debug\netcoreapp3.1\CadastroClientes_Selenium.AssemblyInfo.cs
+C:\Users\renar\Desktop\CadastroClientes_Selenium\CadastroClientes_Selenium\obj\Debug\netcoreapp3.1\CadastroClientes_Selenium.csproj.CoreCompileInputs.cache
+C:\Users\renar\Desktop\CadastroClientes_Selenium\CadastroClientes_Selenium\obj\Debug\netcoreapp3.1\CadastroClientes_Selenium.csproj.CopyComplete
+C:\Users\renar\Desktop\CadastroClientes_Selenium\CadastroClientes_Selenium\obj\Debug\netcoreapp3.1\CadastroClientes_Selenium.dll
+C:\Users\renar\Desktop\CadastroClientes_Selenium\CadastroClientes_Selenium\obj\Debug\netcoreapp3.1\CadastroClientes_Selenium.pdb
+C:\Users\renar\Desktop\CadastroClientes_Selenium\CadastroClientes_Selenium\obj\Debug\netcoreapp3.1\CadastroClientes_Selenium.genruntimeconfig.cache
