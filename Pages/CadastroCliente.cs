@@ -49,6 +49,17 @@ namespace CadastroClientes_Selenium.Pages
             txtSenha.WebElement.SendKeys(txtSenha.Text);
         }
 
+        public void ClearDatas()
+        {
+            txtNome.Text = "";
+            txtEmail.Text = "";
+            txtSenha.Text = "";
+
+            txtNome.WebElement.Clear();
+            txtEmail.WebElement.Clear();
+            txtSenha.WebElement.Clear();
+        }
+
         public TextField TxtNome { get => txtNome;}
         public TextField TxtEmail { get => txtEmail;}
         public TextField TxtSenha { get => txtSenha;}

@@ -27,7 +27,7 @@ namespace CadastroClientes_Selenium
             Cenario4();
             Cenario5();
         }
-        //para todos os Cenários é assumido um e-mail válido sendo um e-mail que seja válido na expressão regular ^\w*(\.\w*)?@\w*+\.com$
+        //para todos os Cenários é assumido um e-mail válido sendo um e-mail que seja válido na expressão regular ^\w*(\.\w*)?@\w*+\.(a-z)$
 
         /*
          * Dado que eu esteja na tela de cadastro
@@ -39,6 +39,7 @@ namespace CadastroClientes_Selenium
          */
         public static void Cenario1()
         {
+            cadastroCliente.ClearDatas();
             cadastroCliente.TxtNome.Text = "Nome Sobrenome";
             cadastroCliente.TxtEmail.Text = "teste@gmail.com";
             cadastroCliente.TxtSenha.Text = "12345678";
@@ -59,6 +60,7 @@ namespace CadastroClientes_Selenium
          */
         public static void Cenario2()
         {
+            cadastroCliente.ClearDatas();
             cadastroCliente.TxtNome.Text = "Nome";
             cadastroCliente.TxtEmail.Text = "teste@gmail.com";
             cadastroCliente.TxtSenha.Text = "12345678";
@@ -79,8 +81,9 @@ namespace CadastroClientes_Selenium
          */
         public static void Cenario3()
         {
+            cadastroCliente.ClearDatas();
             cadastroCliente.TxtNome.Text = "Nome Sobrenome";
-            cadastroCliente.TxtEmail.Text = "teste@gmail.co";
+            cadastroCliente.TxtEmail.Text = "teste@gmail.co1";
             cadastroCliente.TxtSenha.Text = "12345678";
             cadastroCliente.SetDatas();
             cadastroCliente.BtnCadastrar.Click();
@@ -99,7 +102,8 @@ namespace CadastroClientes_Selenium
          */
         public static void Cenario4()
         {
-            cadastroCliente.TxtNome.Text = "Nome Sobrenome";
+            cadastroCliente.ClearDatas();
+            cadastroCliente.TxtNome.Text = "Nome2 Sobrenome";
             cadastroCliente.TxtEmail.Text = "teste@gmail.com";
             cadastroCliente.TxtSenha.Text = "1234567";
             cadastroCliente.SetDatas();
@@ -115,10 +119,11 @@ namespace CadastroClientes_Selenium
          * E insira meu email grande válido
          * E insira uma senha com mais de 8 caracteres e com caracateres especiais
          * Quando clicar em Cadastrar
-         * Então a página deve não exibir meu cadastro feito em uma tabela
+         * Então a página deve exibir meu cadastro feito em uma tabela
          */
         public static void Cenario5()
         {
+            cadastroCliente.ClearDatas();
             cadastroCliente.TxtNome.Text = "Nome Sobrenome1 Sobrenome2";
             cadastroCliente.TxtEmail.Text = "testeemail.Nome.Sobrenome1.Sobrenome2@hotmail.com";
             cadastroCliente.TxtSenha.Text = "Senha C0m Mais De 8 Caracteres !@#$%**--==";
