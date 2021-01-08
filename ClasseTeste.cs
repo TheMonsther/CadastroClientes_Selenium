@@ -22,6 +22,7 @@ namespace CadastroClientes_Selenium
             cadastroCliente = new CadastroCliente(driver);
 
             Cenario1();
+            Cenario2();
         }
         /*
          * Dado
@@ -44,6 +45,14 @@ namespace CadastroClientes_Selenium
             cadastroCliente.TxtSenha.Text = "12345678";
             cadastroCliente.SetDatas();
             cadastroCliente.BtnCadastrar.Click();
+            if(cadastroCliente.ValidaCadastro())
+            Console.WriteLine("Cenario encerrado com sucesso!");
+            else Console.WriteLine("Cenario encerrado com divergencia no resultado");
+        }
+
+        public static void Cenario2()
+        {
+
         }
     }
 }

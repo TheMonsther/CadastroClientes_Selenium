@@ -22,17 +22,24 @@ namespace CadastroClientes_Selenium.Pages
             btnCadastrar = driver.FindElement(By.Id("register"));
         }
 
-        //Obs: como esse método vai ser chamado por um assert, o estado FALSE significa que foi cadastrado com sucesso
+        //Verifica se o nome e o e-mail presentes na tabela são iguais os digitados anteriormente.
         public bool ValidaCadastro()
         {
             IList<IWebElement> tabela;
+            string id;
             tabela = driver.FindElements(By.CssSelector("table"));
 
             foreach (IWebElement linha in tabela)
             {
-                linha.FindElement(By.CssSelector("tr"));
+                id = linha.FindElement(By.CssSelector("td")).Text;
+                if ((linha.FindElement(By.CssSelector("#tdUserName" + id + "")).Text.Equals(TxtNome.Text)))
+                {
+                    if ((linha.FindElement(By.CssSelector("#tdUserEmail" + id + "")).Text.Equals(TxtEmail.Text)))
+                        return true;
+                }
+
             }
-            return true;
+            return false;
         }
 
         public void SetDatas()
